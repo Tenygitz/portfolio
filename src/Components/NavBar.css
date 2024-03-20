@@ -1,0 +1,40 @@
+.NavBar{
+    height: 100px;
+}
+.Header{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+@media screen and (max-width:767px){
+    .Header{
+        justify-content: flex-end;
+    }
+   }
+.SocialMedia{
+    display: flex;
+    gap:20px;
+   
+    
+}
+@media screen and (max-width:767px){
+    .SocialMedia{
+        gap:0;
+       
+        
+    }
+}
+@media screen and (max-width:767px){
+    .Icons{
+        height: 50px;
+        padding: 10px;
+        
+    }
+}
+@media screen and (max-width:767px){
+.Header>span{
+   display: none;
+}}

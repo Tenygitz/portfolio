@@ -1,0 +1,13 @@
+.Cursor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    position: fixed;
+    z-index: 9999;
+}
+@media screen and (max-width:767px){
+    .Cursor{
+        display: none;
+    }
+}
