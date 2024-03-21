@@ -45,7 +45,7 @@ function Contact() {
     <motion.div className='Contact' variants={variants} initial="initial" whileInView="animate">
       <motion.div className='contactContainer' variants={variants}>
       <motion.div className='contactContainer1' variants={variants}>
-        <motion.h1>Let's Work together</motion.h1>
+        <motion.h1>Let's Work Together</motion.h1>
         <motion.div className='contactInfo' variants={variants}>
             <motion.h3 variants={variants}>E-mail</motion.h3>
             <motion.h4 variants={variants}>tenybaby1997@gmail.com</motion.h4>

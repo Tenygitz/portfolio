@@ -87,3 +87,10 @@
     border-radius: 50px;
     font-size: 25px;
 }
+@media screen and (max-width:767px){
+    .formContainerS>button{
+        padding: 10px 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
