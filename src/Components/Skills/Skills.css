@@ -8,6 +8,17 @@
     overflow: hidden;
   
 }
+@media screen and (max-width:767px){
+    #Skills>section{
+        height:0 ;
+    }
+}
+@media screen and (max-width:767px){
+    .Skills{
+        height: 37vh;
+        
+    }
+}
 
 .SkillContainer{
     position: absolute;

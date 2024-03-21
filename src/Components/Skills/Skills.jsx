@@ -76,7 +76,10 @@ const textvarirants={
 
 export default function Skills() {
 
-  return (
+  return (<>
+   <div className='headingParallelax'>
+  <h1>Skills</h1>
+  </div>
     <div className='Skills' >
   
       <motion.div className='SkillContainer' variants={textvarirants} initial="initial" animate="animate">
@@ -96,6 +99,6 @@ export default function Skills() {
       <div className='planetss' ></div>
       <div className='stars'></div>
     
-    </div>
+    </div></>
   )
 }

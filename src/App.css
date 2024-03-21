@@ -25,3 +25,7 @@ section{
     scroll-snap-align: center;
    
 }
+@media screen and (max-width:767px){
+#Skills{
+    height: 40vh;
+}}
