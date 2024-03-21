@@ -11,6 +11,11 @@ article{
 .Portfolio{
     position: relative;
 }
+@media screen and (max-width:767px){
+    .Portfolio{
+        margin-top: 145px;
+    }
+}
 
 .Progress{
     position: sticky;
