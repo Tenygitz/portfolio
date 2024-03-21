@@ -1,6 +1,6 @@
 .Contact{
     height: 100vh;
-    max-width: 1366px;
+    max-width: 1024px;
     margin: auto;
     display: flex;  
 }
@@ -44,7 +44,7 @@
 }
 .contactContainer1>h1{
     color: rgb(146, 7, 146);
-    font-size: 50px;
+    font-size: 60px;
 }
 @media screen and (max-width:767px){
     .contactContainer1>h1{
@@ -53,7 +53,7 @@
     }
 }
 .formContainer{
-    width: 60%;
+    width: 100%;
 }
 @media screen and (max-width:767px){
     .formContainer{
