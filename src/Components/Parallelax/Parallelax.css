@@ -8,9 +8,10 @@
     overflow: hidden;
 }
 .headingParallelax>h1{
-    font-size: 80px;
+    font-size: 57px;
     margin-top: 50px;
     text-align: center;
+    color: orange;
    
 }
 @media screen and (max-width:767px){
@@ -47,7 +48,7 @@
 .experience{
     
     display: flex;
-    z-index: 9999;
+    z-index: 99;
     max-width: 1150px;
 }
 .rightSection{

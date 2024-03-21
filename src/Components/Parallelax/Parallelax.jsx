@@ -15,7 +15,7 @@ function Parallelax({type}) {
     const yBg=useTransform(scrollYProgress,[0,1],["0%","200%"])
   return (<>
   <div className='headingParallelax'>
-  <h1>experience</h1>
+  <h1>Experience</h1>
   </div>
     <motion.div className='Parallelax' ref={ref} >
    

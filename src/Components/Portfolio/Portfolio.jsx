@@ -52,7 +52,7 @@ const Single=({item})=>{
     });
     const y=useTransform(scrollYProgress,[0,1],[-300,300])
     return(
-        <section ref={ref}>
+        <article ref={ref}>
             <motion.div className='container' style={{y:y}}>
                 <div className='wrappers'>
                 
@@ -69,7 +69,7 @@ const Single=({item})=>{
               </div>
             
             </motion.div>
-        </section>
+        </article>
     )
 }
 
