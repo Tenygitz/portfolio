@@ -2,6 +2,12 @@ article{
     height: 100vh;
     scroll-snap-align: center;
 }
+@media screen and (max-width:767px){
+    article{
+        height: 400px;
+        
+    }
+}
 .Portfolio{
     position: relative;
 }
@@ -41,6 +47,12 @@ article{
     width: 100%;
     overflow: hidden;
     
+}
+@media screen and (max-width:767px){
+    .conatiner{
+       transition: none;
+        
+    }
 }
 .wrappers{
     max-width:1024px;
