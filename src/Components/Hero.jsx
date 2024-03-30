@@ -35,7 +35,7 @@ function Hero() {
          <motion.div className='navBtn' variants={textvarirants}>
             <motion.button variants={textvarirants} download={true}><a href="./Teny resume_e.pdf" target='_blank' >Resume</a></motion.button>
         
-            <motion.button variants={textvarirants}>Contact me</motion.button>
+            <motion.button variants={textvarirants}>< a href='#Contact'>Contact me</a></motion.button>
          </motion.div>
          <motion.img animate="scrollButton" variants={textvarirants} src='./scroll.png' alt=''/>
         </motion.div>

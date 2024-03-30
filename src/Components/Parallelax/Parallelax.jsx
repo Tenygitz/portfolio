@@ -33,6 +33,9 @@ function Parallelax({type}) {
           <div className='Circle'>
 
             </div>
+            <div className='Circles'>
+
+            </div>
             
           </div>
          
