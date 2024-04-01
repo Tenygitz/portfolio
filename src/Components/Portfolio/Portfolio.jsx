@@ -36,7 +36,7 @@ const item=[{
     title:"Qoutes generator",
     img:"https://i.ytimg.com/vi/rWNWbiczI-s/maxresdefault.jpg",
     
-    des:"This project showcases my expertise in modern front-end development and state management techniques. With a focus on scalability and performance, I implemented robust features to deliver a seamless user experience. Leveraging React.js's component-based architecture and Redux's centralized state management,",
+    des:"This project showcases my expertise in modern front-end development and state management techniques. With a focus on scalability and performance,I implemented robust features to deliver a seamless user experience. Leveraging React.js's component-based architecture and Redux's centralized state management,",
     https:"https://qoutes-generator-theta.vercel.app/",
     git:"https://github.com/Tenygitz/Qoutes_generator"
 },

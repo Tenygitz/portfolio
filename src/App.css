@@ -11,6 +11,7 @@ a{
     font-weight: 600;
 
 }
+
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;

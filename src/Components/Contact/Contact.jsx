@@ -2,7 +2,9 @@ import React,{useRef,useState} from 'react';
 import {motion} from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
+
 import "./Contact.css"
+import ProgressBar from '../ProgressBar';
 
 const variants={
     initial:{
@@ -20,14 +22,14 @@ const variants={
 }
 function Contact() {
     const formRef=useRef()
-    const[error,setEroor]=useState(false)
+    const[error,setError]=useState(false)
     const[success,setSuccess]=useState(false)
     console.log("error", error)
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_qz159ud', 'template_41i8kcv', formRef.current, {
+          .sendForm('service_se3zbzv', 'template_41i8kcv', formRef.current, {
             publicKey: 'BqhkkPx-3ou90D5Ow',
           })
           .then(
@@ -35,7 +37,7 @@ function Contact() {
              setSuccess(true) 
             },
             (error) => {
-              setEroor(true)
+              setError(true)
             },
           );
       };
@@ -64,8 +66,14 @@ function Contact() {
             <input required type="email" placeholder='Email'name="email"/>
             <textarea required placeholder='Message'name="message"/>
             <button> Submit</button>
-            {error && "Opps something went wrong!"}
-            {success && "Successfully send"}
+             {success &&(
+               <div>
+               <ProgressBar/>
+               <p>Message sent successfully!</p>
+             </div>
+             ) }
+             {error && <p>Oops, something went wrong!</p>}
+           
         </motion.form></div>
       </motion.div>
     </motion.div>
