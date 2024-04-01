@@ -67,10 +67,10 @@ function Contact() {
             <textarea required placeholder='Message'name="message"/>
             <button> Submit</button>
              {success &&(
-               <div>
+               <motion.div>
                <ProgressBar/>
                <p>Message sent successfully!</p>
-             </div>
+             </motion.div>
              ) }
              {error && <p>Oops, something went wrong!</p>}
            

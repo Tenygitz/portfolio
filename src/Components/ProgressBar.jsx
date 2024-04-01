@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-
-
+import "./ProgressBar.css"
 
 
 function ProgressBar() {
@@ -17,11 +16,14 @@ useEffect(() => {
       controls.start('animate');
     }
   }, [shouldAnimate, controls]);
+  useEffect(() => {
+    setShouldAnimate(true);
+}, []);
 
 
   return (
     <motion.div className='ProgressBar'
-        style={{ backgroundColor: '#4CAF50', height: '20px' }}
+        style={{ backgroundColor: '#4CAF50', height: '10px' }}
         variants={progressBarVariants}
         initial="initial"
         animate={controls}>
