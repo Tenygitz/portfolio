@@ -43,7 +43,7 @@ function Hero() {
         </motion.div>
         </div>
         <div className='imageContainer'>
-         <img src='./hero.png' alt='image'/>
+         <img src='../../public/Firefly 20240813161524.png' alt='image' />
         </div>
     </div>
   )
