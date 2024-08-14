@@ -62,8 +62,16 @@ const Single=({item})=>{
                 <h2>{item.title}</h2>
                 <p>{item.des}</p>
                 <div className='btnInfo'>
-                <button><a href={item.git} target='_blank' ><img src='./code.png' alt='GitHub link'></img></a></button>
-                <button><a href={item.https} target='_blank'>See Demo</a></button>
+                <button>
+  <a href={`${item.git}`} target="_blank" rel="noopener noreferrer">
+    <img src="./code.png" alt="GitHub link" />
+  </a>
+</button>
+<button>
+  <a href={`${item.https}`} target="_blank" rel="noopener noreferrer">
+    See Demo
+  </a>
+</button>
                 </div>
               </div>
               </div>
