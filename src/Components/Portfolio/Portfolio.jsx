@@ -7,14 +7,17 @@ const item=[{
     title:"Abez Energy Management",
     img:"abez.jpg",
     des:"Utilizing WordPress's versatility, I integrated interactive elements and sleek layouts to engage visitors and convey the essence of energy efficiency. From intuitive navigation to compelling visuals, every aspect of the site was crafted to reflect the client's commitment to sustainability.  ",
-    https:"https://abez.us/energy-management-services/energy_management_company_usa/"
+    https:"https://abez.us/energy-management-services/energy_management_company_usa/",
+    git:"#"
 },
 {
     id:2,
     title:" Car Valeting services",
     img:"yeovil.webp",
     des:"This project highlights my expertise in crafting visually stunning and user-friendly websites. Specifically tailored for a car wash business, the site boasts a sleek design, intuitive navigation, and engaging content. With a focus on customer convenience, it features online booking functionalities and detailed service descriptions ",
-    https:"https://yeovilcarvaleting.co.uk/"
+    https:"https://yeovilcarvaleting.co.uk/",
+    git:"#"
+    
 },{
     id:3,
     title:"Linkedin clone",
