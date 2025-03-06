@@ -23,10 +23,10 @@ function Parallelax({type}) {
 
       
         <div className='leftSection'>
-          <h3>Intens in React Js</h3>
-           <p>During my internship in React, specialized in creating dynamic webpages, harnessing the power of this cutting-edge JavaScript library. However, developed a deep understanding of React's component-based architecture, enabling me to build interactive user interfaces efficiently. Through hands-on projects, well gained expertise in state management and data handling, ensuring seamless user experiences</p>
-           <h5>2022- August to Septemebr 2022</h5>
-           <h4>Global infonet</h4>
+          <h3>Wordpress Developer</h3>
+           <p>As a WordPress Developer, my primary responsibilities include planning, building, and maintaining business portfolio websites that integrate seamlessly with Google My Business. This integration enhances online presence by displaying verified business information such as location, operating hours, reviews,and contact details</p>
+           <h5>2024 Dec to March 2025</h5>
+           <h4>Brand Profile</h4>
         </div>
         <div className='middleSection'>
           <div className='line'>

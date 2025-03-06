@@ -2,44 +2,46 @@ import React,{useRef} from 'react';
 import {motion,useScroll,useSpring,useTransform} from "framer-motion"
 import "./Portfolio.css";
 
-const item=[{
-    id:1,
+const item=[
+    {
+        id:1,
+        title:"KTM Husqvarna Attingal",
+        img:"generator.png",
+        
+        des:"This project is a dynamic and visually engaging business portfolio website for KTM Husqvarna Attingal, an authorized dealership for KTM and Husqvarna motorcycles. The website highlights their premium motorcycle lineup, services, and exclusive offers while ensuring a seamless user experience. Designed with a modern and responsive layout",
+        https:"https://ktmhusqvarnaattingal.in/",
+        
+    },
+    {
+        id:2,
+        title:"Kayal Kitchen",
+        img:"amazon.png",
+    
+        des:"This project is a beautifully designed restaurant website for Kayal Kitchen, a dining destination that celebrates rich flavors and authentic cuisine. The website features an elegant and user-friendly interface, showcasing the menu, special dishes, and restaurant ambiance. ",
+        git:"https://kayalkitchen.in/"
+    },
+    {
+    id:3,
     title:"Abez Energy Management",
     img:"abez.jpg",
     des:"Utilizing WordPress's versatility, I integrated interactive elements and sleek layouts to engage visitors and convey the essence of energy efficiency. From intuitive navigation to compelling visuals, every aspect of the site was crafted to reflect the client's commitment to sustainability.  ",
     https:"https://abez.us/energy-management-services/energy_management_company_usa/"
 },
 {
-    id:2,
+    id:4,
     title:" Car Valeting services",
     img:"yeovil.webp",
     des:"This project highlights my expertise in crafting visually stunning and user-friendly websites. Specifically tailored for a car wash business, the site boasts a sleek design, intuitive navigation, and engaging content. With a focus on customer convenience, it features online booking functionalities and detailed service descriptions ",
     https:"https://yeovilcarvaleting.co.uk/"
 },{
-    id:3,
+    id:5,
     title:"Linkedin clone",
     img:"linkedinclone.png",
 
     des:"LinkedIn clone developed with React.js and Redux, leveraging Firebase as the backend. This project demonstrates my proficiency in front-end development and state management using industry-standard tools. I implemented key features such as post uploads, comment sections, and a like functionality, offering users a seamless social networking experience. Through meticulous design and functionality, Created login page, register page and  homepage  ",
     git:"https://github.com/Tenygitz/linkedin"
 },
-{
-    id:4,
-    title:"Amazone clone",
-    img:"amazon.webp",
 
-    des:"Amazon clone built with React.js and Redux. This project showcases my proficiency in front-end development and state management techniques. I meticulously designed and implemented essential features including login and register pages, offering users a seamless authentication process. Additionally, I integrated a comprehensive shopping cart functionality, allowing users to add products  ",
-    git:"https://github.com/Tenygitz/amazon"
-},
-{
-    id:5,
-    title:"Qoutes generator",
-    img:"generator.jpg",
-    
-    des:"This project showcases my expertise in modern front-end development and state management techniques. With a focus on scalability and performance,I implemented robust features to deliver a seamless user experience. Leveraging React.js's component-based architecture and Redux's centralized state management,",
-    https:"https://qoutes-generator-theta.vercel.app/",
-    git:"https://github.com/Tenygitz/Qoutes_generator"
-},
 
 
 ]
