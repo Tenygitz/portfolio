@@ -5,11 +5,11 @@ import "./Portfolio.css";
 const item=[
     {
         id:1,
-        title:"KTM Husqvarna Attingal",
-        img:"generator.png",
+        title:"KPM Packers",
+        img:"kpmpacker.png",
         
-        des:"This project is a dynamic and visually engaging business portfolio website for KTM Husqvarna Attingal, an authorized dealership for KTM and Husqvarna motorcycles. The website highlights their premium motorcycle lineup, services, and exclusive offers while ensuring a seamless user experience. Designed with a modern and responsive layout",
-        https:"https://ktmhusqvarnaattingal.in/",
+        des:"This project is a dynamic and visually engaging business portfolio website for KPM Packers , seamless user experience. Designed with a modern and responsive layout",
+        https:"https://kpmpacker.in/",
         
     },
     {
